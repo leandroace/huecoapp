@@ -42,3 +42,25 @@
 .read-the-docs {
   color: #888;
 }
+
+.upload-container {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.upload-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.upload-button:hover {
+  background-color: #0056b3;
+}
+
