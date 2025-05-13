@@ -3,6 +3,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import './App.css';
 
+
 function App() {
   const [huecos, setHuecos] = useState([]);
   const [image, setImage] = useState(null);
